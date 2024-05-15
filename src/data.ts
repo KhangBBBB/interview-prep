@@ -90,12 +90,12 @@ export const topics: models.Topic[] = [
             {
                 question: `What are variants of Tree?`,
                 answer: `Binary Tree, Binary Search Tree, AVL Tree, Red-Black Tree.`,
-            }, 
+            },
             {
                 question: `What is Binary Tree?`,
                 answer: `A tree data structure in which each node has at most two children.`,
             },
-            {  
+            {
                 question: `What is Graph?`,
                 answer: `A non-linear data structure consisting of nodes connected by edges.`,
             },
@@ -105,7 +105,7 @@ export const topics: models.Topic[] = [
             },
             {
                 question: `What is Hash Table?`,
-                answer: `Data structure that stores key-value pairs, allowing for efficient insertion, deletion, and lookup operations based on a unique hash function.`, 
+                answer: `Data structure that stores key-value pairs, allowing for efficient insertion, deletion, and lookup operations based on a unique hash function.`,
             },
             {
                 question: `What is Collision in Hash Table?`,
@@ -130,52 +130,76 @@ export const topics: models.Topic[] = [
         ],
     },
     {
-        title: "CSS/HTML",
+        title: "Web Foundation",
         subtitle: "",
         flashcards: [
             {
-                question: `List common HTTP methods.`,
+                question: `What does HTTP stand for?`,
+                answer: `Hypertext Transfer Protocol`,
+            },
+            {
+                question: `What is HTTP`,
+                answer: `A request-response protocol used for transmitting hypermedia documents.`,
+            },
+            {
+                question: `What are common HTTP methods?`,
                 answer: `GET, POST, PUT, DELETE, PATCH`,
             },
             {
-                question: `Describe GET`,
-                answer: `Retrieves data from the server. Use for read-only operations.`,
+                question: `What is HTTP GET method?`,
+                answer: `Requests data from a specified resource.`,
             },
             {
-                question: `Describe POST`,
-                answer: `Sends data to the server to create a new resource.`,
+                question: `What is HTTP POST method?`,
+                answer: `ubmits data to be processed to a specified resource.`,
             },
             {
-                question: `Describe PUT`,
-                answer: `Updates an existing resource with the provided data. It should be idempotent.`,
+                question: `What is HTTP PUT method?`,
+                answer: `pdates a specified resource with new data`,
             },
             {
-                question: `DELETE`,
-                answer: `Deletes a resource from the server.`,
+                question: `What is HTTP DELETE method?`,
+                answer: `Deletes a specified resource.`,
             },
             {
-                question: `PATCH`,
-                answer: `Updates a resource partially. It should be idempotent.`,
+                question: `What is HTTP method PATCH?`,
+                answer: `Applies partial modifications to a resource.`,
             },
             {
-                question: `What do HTTP status codes provide?`,
-                answer: `Provide information about the result of a request.`,
+                question: `What is HTTP status code?`,
+                answer: `Numeric code to indicate the outcome of a client's request.`,
             },
             {
-                question: `What does HTTP status code 2xx represent?`,
-                answer: `Success (e.g., 200 OK, 201 Created)`,
+                question: `What does HTTP status code 2xx indicate?`,
+                answer: `Success`,
             },
             {
-                question: `What does HTTP status code 3xx represent?`,
-                answer: `Redirection (e.g., 301 Moved Permanently, 304 Not Modified)`,
+                question: `What does HTTP status code 3xx indicate?`,
+                answer: `Redirection`,
             },
             {
-                question: `What does HTTP status code 4xx represent?`,
-                answer: `Client Error (e.g., 400 Bad Request, 404 Not Found)`,
+                question: `What does HTTP status code 4xx indicate?`,
+                answer: `Client error.`,
             },
             {
-                question: `What does HTTP status code 5xx represent?`,
-                answer: `Server Error (e.g., 500 Internal Server Error, 503 Service Unavailable)`,
+                question: `What does HTTP status code 5xx indicate?`,
+                answer: `Server error.`,
+            },
+            {
+                question: `What does URL stand for?`,
+                answer: `Uniform Resource Locator.`,
+            },
+            {
+                question: `What is URL?`,
+                answer: `A address used to access resources on the internet, specifying the location and protocol.`,
+            },
+            {
+                question: `What does DNS stand for?`,
+                answer: `Domain Name System.`,
+            },
+            {
+                question: `What is DNS?`,
+                answer: `It translates domain names (like google.com) into IP addresses (like 172.217.7.238).`,
             },
         ]
     },
