@@ -2,7 +2,7 @@
 
 This web application provides a set of prebuilt flashcards to help me to study.
 
-Link to the web application: https://khangbbbb.github.io/ultimate-review/
+Link to the web application: https://khangbbbb.github.io/interview-prep/
 
 # Development
 
