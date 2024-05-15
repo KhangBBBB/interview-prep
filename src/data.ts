@@ -84,6 +84,18 @@ export const topics: models.Topic[] = [
                 answer: `Data structure consisting of nodes connected by edges. It has a root node, parent nodes, and child node.`,
             },
             {
+                question: `What is a leaf node in Tree?`,
+                answer: `A node that does not have any children.`,
+            },
+            {
+                question: `What are variants of Tree?`,
+                answer: `Binary Tree, Binary Search Tree, AVL Tree, Red-Black Tree.`,
+            }, 
+            {
+                question: `What is Binary Tree?`,
+                answer: `A tree data structure in which each node has at most two children.`,
+            },
+            {  
                 question: `What is Graph?`,
                 answer: `A non-linear data structure consisting of nodes connected by edges.`,
             },
