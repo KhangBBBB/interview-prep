@@ -1,6 +1,6 @@
 # Introduction
 
-This web application provides a set of prebuilt flashcards to help me to study.
+This repository provides a flashcard template to host as a static site.
 
 Link to the web application: https://khangbbbb.github.io/interview-prep/
 
@@ -11,6 +11,7 @@ Link to the web application: https://khangbbbb.github.io/interview-prep/
 
 # Deployment
 
+1. Make sure to edit vite.config.ts. Change `base` to the correct string. For instance, this repository named `interview-prep`, so `base` would be `/interview-prep/`.
 1. Build the application: `npm run build`
 1. Deploy the application: `npm run deploy`
 
