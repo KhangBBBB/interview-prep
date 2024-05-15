@@ -111,6 +111,10 @@ export const topics: models.Topic[] = [
                 question: `What is Map?`,
                 answer: `Data structure that stores unique key-value pairs.`,
             },
+            {
+                question: `What is the relationship between Map and Hash Table?`,
+                answer: `Hash Table is commonly used to implement Map.`,
+            },
         ],
     },
     {
