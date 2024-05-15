@@ -2,46 +2,38 @@ import type { models } from "./lib/models";
 
 export const topics: models.Topic[] = [
     {
-        title: "Java/JS",
-        subtitle: "",
+        title: "Java/OOP",
+        subtitle: "Object-Oriented Programming in Java",
         flashcards: [
             {
-                question: "What is Encapsulation?",
+                question: "What is Encapsulation in Java?",
                 answer: "Encapsulation is the practice of bundling data and methods within a class and restricting access to the inner workings of that class using access modifiers. This protects the integrity of the data by only allowing controlled interactions through public methods.",
-            }, 
-            {
-                question: "What is Inheritance?",
-                answer: `Inheritance is an OOP concept where one class (the subclass or derived class) inherits the fields and methods of another class (the superclass or base class). This allows for code reuse, enabling the subclass to extend or modify the behavior of the superclass, and promotes hierarchical classification.`,
             },
             {
-                question: `Polymorphism`,
-                answer: `Polymorphism is an action that can be performed in many different ways. This is a property that can be said to contain most of the power of object-oriented programming.
-
-To put it more simply: Polymorphism is the concept that two or more classes have the same methods but can be implemented in different ways.
-
-An example of polymorphism in action. We have 2 animals: dog and cat. Both are animals. But when we tell both animals to act, the dog will goof, the cat will meow.
-
-So in the example, dogs and cats are considered objects. Two animals can understand the same sound but in different ways.`,
+                question: "What is Inheritance in Java?",
+                answer: `Inheritance is a concept where one class (the subclass or derived class) inherits the fields and methods of another class (the superclass or base class). This allows for code reuse, enabling the subclass to extend or modify the behavior of the superclass, and promotes hierarchical classification.`,
             },
             {
-                question: `Abstraction`,
-                answer: `Hiding complex details and showing only the essential parts of an object, making it easier to use without needing to know how it works internally, like managing students, we just need the name and student ID, we don't need to know about weight or heights`,
+                question: `What is Polymorphism in Java?`,
+                answer: `Polymorphism allows methods to perform differently based on the object they are called on. It supports method overloading (compile-time) and method overriding (runtime), enabling a single interface to handle multiple data types or classes.`,
+            },
+            {
+                question: `What is Abstraction in Java?`,
+                answer: `Abstraction hides the implementation details of a class and exposes only the essential features. It is achieved using abstract classes and interfaces, allowing users to interact with objects through a simplified interface. This reduces complexity and enhances code maintainability.`,
             },
             {
                 question: `What is the difference between public, private, and protected?`,
-                answer: `* Public: Public members are accessible from outside the class. They can be accessed and modified by any code that has access to an instance of the class.
-
-* Private: Private members are only accessible from within the class itself. They cannot be accessed or modified directly from outside the class. Private members are typically used to hide implementation details and ensure data integrity.
-
-* Protected: Protected members are accessible within the class itself and by its subclasses (child classes). They cannot be accessed from outside the class hierarchy. Protected members are useful when you want to provide access to subclasses but restrict access to other classes.`,
+                answer: `- Public: Accessible from anywhere.
+- Private: Accessible only within the same class.
+- Protected: Accessible within the same package and by subclasses.`,
             },
             {
-                question: `Overriding`,
-                answer: `Occurs when a subclass provides a specific implementation of a method already defined in its superclass.`,
+                question: `What is Overriding in Java?`,
+                answer: `Overriding is when a subclass provides a specific implementation for a method already defined in its superclass.`,
             },
             {
-                question: `Overloading`,
-                answer: `Occurs when a class has multiple methods with the same name but different parameters. `,
+                question: `What is Overloading in Java?`,
+                answer: `Overloading is when multiple methods in the same class have the same name but different parameter lists.`,
             },
         ],
     },
