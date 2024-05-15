@@ -43,6 +43,10 @@ export const topics: models.Topic[] = [
                 question: `What is the difference between Abstract Class and Interface?`,
                 answer: `Abstract classes allow for a mix of abstract and concrete methods, while interfaces only have abstract methods that classes must implement.`,
             },
+            {
+                question: `What is garbage collection?`,
+                answer: `An automated process to clean up unused memory.`,
+            },
         ],
     },
     {
