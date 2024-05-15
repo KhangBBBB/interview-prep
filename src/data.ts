@@ -203,4 +203,86 @@ export const topics: models.Topic[] = [
             },
         ]
     },
+    {
+        title: "JavaScript/TypeScript",
+        subtitle: "",
+        flashcards: [
+            {
+                question: `What is the relationship between JS and TS?`,
+                answer: `TypeScript is a statically typed superset of JavaScript that compiles to plain JavaScript.`,
+            },
+            {
+                question: `What are arrow functions in JS?`,
+                answer: `Arrow functions are a concise way to write functions in JS.`,
+            },
+            {
+                question: `What is Promise in JS?`,
+                answer: `Promises are objects representing the eventual completion or failure of an asynchronous operation. They allow asynchronous code to be written in a more synchronous-like fashion, making it easier to manage.`,
+            },
+            {
+                question: `What is asynchronous programming in JS?`,
+                answer: `Asynchronous programming in JavaScript allows code to execute independently from the main program flow.`,
+            },
+            {
+                question: `What is a callback function in JS?`,
+                answer: `A callback function is a function that is passed as an argument to another function.`,
+            },
+            {
+                question: `What is the use case of callback function in asynchronous programming in JS?`,
+                answer: `Used to handle the results of asynchronous operations once they are completed.`,
+            },
+            {
+                question: `What is the purpose of the keyword 'async'?`,
+                answer: `Used to define asynchronous functions, which return promises.`,
+            },
+            {
+                question: `What is the purpose of the keyword 'wait'?`,
+                answer: `Used inside async functions to wait for and retrieve the result of asynchronous operations, making asynchronous code appear synchronous.`,
+            },
+            {
+                question: `What is the event loop in JS?`,
+                answer: `It manages asynchronous operations by continuously checking the call stack and event queue, ensuring that tasks are executed in a non-blocking manner.`,
+            },
+            {
+                question: "What is scope in JS?",
+                answer: `Scope refers to the visibility and accessibility of variables.`,
+            },
+            {
+                question: `How does JS handle errors?`,
+                answer: `Using try-catch blocks for synchronous code and catch() methods for asynchronous code`,
+            },
+            {
+                question: `What is reduce in JS?`,
+                answer: `A higher-order array method used to iterate over an array and accumulate a single result based on a callback function provided by the user.`,
+            },
+            {
+                question: `What is the output of this code?
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
+
+console.log(sum);`,
+                answer: `15`,
+            },
+            {
+                question: `What are the different primitive data types in JS?`,
+                answer: `string, number, boolean, bigint, null, undefined, symbol`,
+            },
+            {
+                question: `What are the different complex data types in JS?`,
+                answer: `object, array, function, map, set`,
+            },
+            {
+                question: `What is the difference between == and === operators in JavaScript?`,
+                answer: `== is the equality operator that performs type coercion, while === is the strict equality operator that compares both value and type without coercion.`,
+            },
+            {
+                question: `What is finally in try-catch in JS?`,
+                answer: `finally is a block of code used in a try...catch statement. It runs regardless of whether an exception is thrown or caught.`,
+            },
+        ],
+    },
 ];
