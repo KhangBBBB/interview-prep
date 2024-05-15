@@ -24,12 +24,16 @@ An example of polymorphism in action. We have 2 animals: dog and cat. Both are a
 So in the example, dogs and cats are considered objects. Two animals can understand the same sound but in different ways.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `Abstraction`,
+                answer: `Hiding complex details and showing only the essential parts of an object, making it easier to use without needing to know how it works internally, like managing students, we just need the name and student ID, we don't need to know about weight or heights`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `What is the difference between public, private, and protected?`,
+                answer: `* Public: Public members are accessible from outside the class. They can be accessed and modified by any code that has access to an instance of the class.
+
+* Private: Private members are only accessible from within the class itself. They cannot be accessed or modified directly from outside the class. Private members are typically used to hide implementation details and ensure data integrity.
+
+* Protected: Protected members are accessible within the class itself and by its subclasses (child classes). They cannot be accessed from outside the class hierarchy. Protected members are useful when you want to provide access to subclasses but restrict access to other classes.`,
             },
             {
                 question: ``,
