@@ -57,6 +57,60 @@ export const topics: models.Topic[] = [
                 question: `What is Array?`,
                 answer: `Collection of elements stored in contiguous memory locations.`,
             },
+            {
+                question: `What is Linked List?`,
+                answer: `Collection of elements where each element points to the next one.`,
+            },
+            {
+                question: `What is Stack?`,
+                answer: `A data structure that follows the Last In, First Out (LIFO) principle.`,
+            },
+            {
+                question: `What are Stack operations?`,
+                answer: `- Push (adds an element to the top of the stack)
+- Pop (removes the top element from the stack)`,
+            },
+            {
+                question: `What is Queue?`,
+                answer: `Data structure that follows the First In, First Out (FIFO) principle`,
+            },
+            {
+                question: `What are Queue operations?`,
+                answer: `- Enqueue (adding an element to the rear)
+- Dequeue (removes the element from the front)`,
+            },
+            {
+                question: `What is Tree?`,
+                answer: `Data structure consisting of nodes connected by edges. It has a root node, parent nodes, and child node.`,
+            },
+            {
+                question: `What is Graph?`,
+                answer: `A non-linear data structure consisting of nodes connected by edges.`,
+            },
+            {
+                question: `What is the relationship between Tree and Graph?`,
+                answer: `A tree is a specific type of graph characterized by its hierarchical structure without cycles, where each node has a unique parent except for the root node.`,
+            },
+            {
+                question: `What is Hash Table?`,
+                answer: `Data structure that stores key-value pairs, allowing for efficient insertion, deletion, and lookup operations based on a unique hash function.`, 
+            },
+            {
+                question: `What is Collision in Hash Table?`,
+                answer: `Where two or more keys generate the same hash value.`,
+            },
+            {
+                question: `What is Collision Resolution in Hash Table?`,
+                answer: `Strategies to manage collisions.`,
+            },
+            {
+                question: `What are strategies to resolve collision in Hash Table?`,
+                answer: `Chaining or open addressing.`,
+            },
+            {
+                question: `What is Map?`,
+                answer: `Data structure that stores unique key-value pairs.`,
+            },
         ],
     },
     {
