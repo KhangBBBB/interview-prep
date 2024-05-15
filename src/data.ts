@@ -7,11 +7,19 @@ export const topics: models.Topic[] = [
         flashcards: [
             {
                 question: "What is Encapsulation in Java?",
-                answer: "Encapsulation is the practice of bundling data and methods within a class and restricting access to the inner workings of that class using access modifiers. This protects the integrity of the data by only allowing controlled interactions through public methods.",
+                answer: "Encapsulation restricts access to the inner workings of that class using access modifiers.",
+            },
+            {
+                question: "What is the benefit of Encapsulation?",
+                answer: "It protects the integrity of the data by only allowing controlled interactions through public methods.",
             },
             {
                 question: "What is Inheritance in Java?",
-                answer: `Inheritance is a concept where one class (the subclass or derived class) inherits the fields and methods of another class (the superclass or base class). This allows for code reuse, enabling the subclass to extend or modify the behavior of the superclass, and promotes hierarchical classification.`,
+                answer: `Inheritance is a concept where one class (the subclass or derived class) inherits the fields and methods of another class (the superclass or base class).`,
+            },
+            {
+                question: `What is the benefit of Inheritance?`,
+                answer: `This allows for code reuse, enabling the subclass to extend or modify the behavior of the superclass, and promotes hierarchical classification.`
             },
             {
                 question: `What is Polymorphism in Java?`,
