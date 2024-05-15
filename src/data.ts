@@ -50,6 +50,16 @@ export const topics: models.Topic[] = [
         ],
     },
     {
+        title: "Data Structure",
+        subtitle: "",
+        flashcards: [
+            {
+                question: `What is Array?`,
+                answer: `Collection of elements stored in contiguous memory locations.`,
+            },
+        ],
+    },
+    {
         title: "CSS/HTML",
         subtitle: "",
         flashcards: [
