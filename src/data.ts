@@ -6,12 +6,12 @@ export const topics: models.Topic[] = [
         subtitle: "",
         flashcards: [
             {
-                question: "Encapsulation",
-                answer: "Encapsulation is like putting your data and the methods that manipulate that data into a single container, called a class. This container protects the data from direct access and manipulation from outside the class. Instead, it provides controlled access through specific methods, which ensures data integrity and prevents unintended changes.",
-            },
+                question: "What is Encapsulation?",
+                answer: "Encapsulation is the practice of bundling data and methods within a class and restricting access to the inner workings of that class using access modifiers. This protects the integrity of the data by only allowing controlled interactions through public methods.",
+            }, 
             {
-                question: "Inheritance",
-                answer: `Inheritance: Inheritance in programming is like passing down characteristics from one thing to another. Imagine you have a class that defines a generic "Vehicle" with attributes like "color" and "speed", and methods like "accelerate" and "brake". Now, you want to create more specific types of vehicles, like "Car" and "Motorcycle", that share these attributes and methods but may have some unique ones of their own. Instead of rewriting all the common stuff for each type of vehicle, you can use inheritance to create child classes (Car and Motorcycle) that inherit everything from the parent class (Vehicle) and then add their own unique features.`,
+                question: "What is Inheritance?",
+                answer: `Inheritance is an OOP concept where one class (the subclass or derived class) inherits the fields and methods of another class (the superclass or base class). This allows for code reuse, enabling the subclass to extend or modify the behavior of the superclass, and promotes hierarchical classification.`,
             },
             {
                 question: `Polymorphism`,
@@ -36,48 +36,62 @@ So in the example, dogs and cats are considered objects. Two animals can underst
 * Protected: Protected members are accessible within the class itself and by its subclasses (child classes). They cannot be accessed from outside the class hierarchy. Protected members are useful when you want to provide access to subclasses but restrict access to other classes.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `Overriding`,
+                answer: `Occurs when a subclass provides a specific implementation of a method already defined in its superclass.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `Overloading`,
+                answer: `Occurs when a class has multiple methods with the same name but different parameters. `,
+            },
+        ],
+    },
+    {
+        title: "CSS/HTML",
+        subtitle: "",
+        flashcards: [
+            {
+                question: `List common HTTP methods.`,
+                answer: `GET, POST, PUT, DELETE, PATCH`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `Describe GET`,
+                answer: `Retrieves data from the server. Use for read-only operations.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `Describe POST`,
+                answer: `Sends data to the server to create a new resource.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `Describe PUT`,
+                answer: `Updates an existing resource with the provided data. It should be idempotent.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `DELETE`,
+                answer: `Deletes a resource from the server.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `PATCH`,
+                answer: `Updates a resource partially. It should be idempotent.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `What do HTTP status codes provide?`,
+                answer: `Provide information about the result of a request.`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `What does HTTP status code 2xx represent?`,
+                answer: `Success (e.g., 200 OK, 201 Created)`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `What does HTTP status code 3xx represent?`,
+                answer: `Redirection (e.g., 301 Moved Permanently, 304 Not Modified)`,
             },
             {
-                question: ``,
-                answer: ``,
+                question: `What does HTTP status code 4xx represent?`,
+                answer: `Client Error (e.g., 400 Bad Request, 404 Not Found)`,
+            },
+            {
+                question: `What does HTTP status code 5xx represent?`,
+                answer: `Server Error (e.g., 500 Internal Server Error, 503 Service Unavailable)`,
             },
         ]
     },
