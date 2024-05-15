@@ -39,6 +39,10 @@ export const topics: models.Topic[] = [
                 question: `What is Overloading in Java?`,
                 answer: `Overloading is when multiple methods in the same class have the same name but different parameter lists.`,
             },
+            {
+                question: `What is the difference between Abstract Class and Interface?`,
+                answer: `Abstract classes allow for a mix of abstract and concrete methods, while interfaces only have abstract methods that classes must implement.`,
+            },
         ],
     },
     {
