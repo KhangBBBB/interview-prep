@@ -10,24 +10,20 @@ export const topics: models.Topic[] = [
                 answer: "Encapsulation restricts access to the inner workings of that class using access modifiers.",
             },
             {
-                question: "What is the benefit of Encapsulation?",
-                answer: "It protects the integrity of the data by only allowing controlled interactions through public methods.",
-            },
-            {
                 question: "What is Inheritance in Java?",
                 answer: `Inheritance is a concept where one class (the subclass or derived class) inherits the fields and methods of another class (the superclass or base class).`,
             },
             {
-                question: `What is the benefit of Inheritance?`,
-                answer: `This allows for code reuse, enabling the subclass to extend or modify the behavior of the superclass, and promotes hierarchical classification.`
-            },
-            {
                 question: `What is Polymorphism in Java?`,
-                answer: `Polymorphism allows methods to perform differently based on the object they are called on. It supports method overloading (compile-time) and method overriding (runtime), enabling a single interface to handle multiple data types or classes.`,
+                answer: `Polymorphism allows methods to perform differently based on the object they are called on.`,
             },
             {
                 question: `What is Abstraction in Java?`,
-                answer: `Abstraction hides the implementation details of a class and exposes only the essential features. It is achieved using abstract classes and interfaces, allowing users to interact with objects through a simplified interface. This reduces complexity and enhances code maintainability.`,
+                answer: `Abstraction hides implementation details and shows only essential features of an object to the outside world.`,
+            },
+            {
+                question: `How do we achieve abstraction in Java?`,
+                answer: `Abstract classes and interfaces`,
             },
             {
                 question: `What is the difference between public, private, and protected?`,
