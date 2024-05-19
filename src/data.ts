@@ -285,4 +285,128 @@ console.log(sum);`,
             },
         ],
     },
+    {
+        title: "Bootstrap",
+        subtitle: "",
+        flashcards: [
+            // Button.
+            // Border, Margin, Padding.
+            {
+                question: `What class adds a small margin around an element?`,
+                answer: `<div class="m-1"></div>`,
+            },
+            {
+                question: `What class adds large padding inside an element?`,
+                answer: `<div class="p-5"></div>`,
+            },
+            {
+                question: `Which classes would you use to add a margin only on the top and bottom of an element?`,
+                answer: `<div class="my-3"></div>`,
+            },
+            {
+                question: `How do you add a border to an element?`,
+                answer: `<div class="border"></div>`,
+            },
+            {
+                question: `What class adds a thick red border to the left side of an element?`,
+                answer: `<div class="border-start border-danger border-5"></div>`,
+            },
+            {
+                question: `How do you make an element’s corners rounded?`,
+                answer: `<div class="rounded"></div>`,
+            },
+            {
+                question: `Which class adds a small shadow to an element?`,
+                answer: `<div class="shadow-sm"></div>`,
+            },
+            {
+                question: `How do you make text bold using Bootstrap classes?`,
+                answer: `<p class="fw-bold">Bold text</p>`,
+            },
+            {
+                question: `What class makes text italic?`,
+                answer: `<p class="fst-italic">Italic text</p>`,
+            },
+            {
+                question: `Which class adds padding only to the left and right sides of an element?`,
+                answer: `<div class="px-3"></div>`,
+            },
+            {
+                question: `How do you apply a shadow with a medium size to an element?`,
+                answer: `<div class="shadow"></div>`,
+            },
+            {
+                question: `How do you apply a font weight of light to text?`,
+                answer: `<p class="fw-light">Light text</p>`,
+            },
+            {
+                question: `How do you include rounded pill corners on an element?`,
+                answer: `<div class="rounded-pill"></div>`,
+            },
+            {
+                question: `How do you add a margin to the bottom of an element only?`,
+                answer: `<div class="mb-3"></div>`,
+            },
+            {
+                question: `What class adds a default border to an element?`,
+                answer: `<div class="border"></div>`,
+            },
+            {
+                question: `How do you add a top border only to an element?`,
+                answer: `<div class="border-top"></div>`,
+            },
+            {
+                question: `How do you apply a green border color to the left side of an element?`,
+                answer: `<div class="border-start border-success"></div>`,
+            },
+            {
+                question: `Which class would you use to add a large shadow to an element?`,
+                answer: `<div class="shadow-lg"></div>`,
+            },
+            {
+                question: `How do you set a border thickness of 5 on an element?`,
+                answer: `<div class="border-5"></div>`,
+            },
+            {
+                question: `How do you make text appear bolder than the default bold text?`,
+                answer: `<p class="fw-bolder">Bolder text</p>`,
+            },
+            {
+                question: `Which class would you use to make text italic and light at the same time?`,
+                answer: `<p class="fst-italic fw-light">Italic light text</p>`,
+            },
+            {
+                question: `How do you add padding to the start and end of an element?`,
+                answer: `<div class="ps-5 pe-5"></div>`,
+            },
+            {
+                question: `What class adds a margin on the y-axis (top and bottom) only?`,
+                answer: `<div class="my-3"></div>`,
+            },
+            {
+                question: `How do you create an element with small padding and a small margin?`,
+                answer: `<div class="m-1 p-1"></div>`,
+            },
+            {
+                question: `How do you create a bordered element with rounded corners?`,
+                answer: `<div class="border rounded"></div>`,
+            },
+            {
+                question: `What class would you use to create an element with a default shadow?`,
+                answer: `<div class="shadow"></div>`,
+            },
+            {
+                question: `How do you apply padding only to the left side of an element?`,
+                answer: `<div class="ps-5"></div>`,
+            },
+            {
+                question: `How do you apply padding only to the right side of an element?`,
+                answer: `<div class="pe-5"></div>`,
+            },
+            {
+                question: `How do you add a border to the right side of an element?`,
+                answer: `<div class="border-end"></div>`,
+            },
+        ],
+    },
 ];
