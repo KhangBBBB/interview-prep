@@ -290,6 +290,46 @@ console.log(sum);`,
         subtitle: "",
         flashcards: [
             // Button.
+            {
+                question: `What class is used to style a button with primary theme?`,
+                answer: `<button class="btn btn-primary">Primary button</button>`,
+            },
+            {
+                question: `What class is used to style a button with secondary theme?`,
+                answer: `<button class="btn btn-secondary">Secondary button</button>`,
+            },
+            {
+                question: `How do you style an anchor tag as an info-themed button?`,
+                answer: `<a href="#" class="btn btn-info">Info anchor tag</a>`,
+            },
+            {
+                question: `How do you style an anchor tag as a success-themed button?`,
+                answer: `<a href="#" class="btn btn-success">Success anchor tag</a>`,
+            },
+            {
+                question: `Which classes are used to create a large danger-themed button?`,
+                answer: `<button class="btn btn-lg btn-danger">Large danger button</button>`,
+            },
+            {
+                question: `Which classes are used to create a small warning-themed button?`,
+                answer: `<button class="btn btn-sm btn-warning">Small warning button</button>`,
+            },
+            {
+                question: `How do you create a primary-themed button with an outlined style?`,
+                answer: `<button class="btn btn-outline-primary">Outlined button</button>`,
+            },
+            {
+                question: `How do you create a large secondary-themed button with an outlined style?`,
+                answer: `<button class="btn btn-outline-secondary btn-lg">Large outlined button</button>`,
+            },
+            {
+                question: `How do you create a group of buttons with primary, warning, and success themes?`,
+                answer: `<div class="btn-group">
+  <a href="#" class="btn btn-primary">Button 1</a>
+  <a href="#" class="btn btn-warning">Button 2</a>
+  <a href="#" class="btn btn-success">Button 3</a>
+</div>`,
+            },
             // Border, Margin, Padding.
             {
                 question: `What class adds a small margin around an element?`,
