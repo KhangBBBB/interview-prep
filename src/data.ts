@@ -447,6 +447,65 @@ console.log(sum);`,
                 question: `How do you add a border to the right side of an element?`,
                 answer: `<div class="border-end"></div>`,
             },
+            // Grid System.
+            {
+                question: `How do you create a row in Bootstrap's grid system?`,
+                answer: `<div class="row"></div>`,
+            },
+            {
+                question: `How do you create a column in Bootstrap's grid system that spans one column width?`,
+                answer: `<div class="col"></div>`,
+            },
+            {
+                question: `How do you create three equally spaced columns within a row?`,
+                answer: `<div class="row">
+  <div class="col"><div class="p-5 bg-primary text-light">col 1</div></div>
+  <div class="col"><div class="p-5 bg-primary text-light">col 2</div></div>
+  <div class="col"><div class="p-5 bg-primary text-light">col 3</div></div>
+</div>
+`,
+            },
+            {
+                question: `How do you set a column to span six grid columns?`,
+                answer: `<div class="col-6"></div>`,
+            },
+            {
+                question: `How do you create a column that spans 6 columns, another that spans 3, and another that spans 3?`,
+                answer: `<div class="row">
+  <div class="col-6"><div class="p-5 bg-primary text-light">col 1</div></div>
+  <div class="col-3"><div class="p-5 bg-primary text-light">col 2</div></div>
+  <div class="col-3"><div class="p-5 bg-primary text-light">col 3</div></div>
+</div>
+`,
+            },
+            {
+                question: `How do you create responsive columns that span 4 columns on small screens and 6 columns on large screens?`,
+                answer: `<div class="col-sm-4 col-lg-6"></div>`,
+            },
+            {
+                question: `How do you create a row with custom vertical gutter spacing?`,
+                answer: `<div class="row gy-3"></div>`,
+            },
+            {
+                question: `How do you center a row of columns within a container?`,
+                answer: `<div class="row justify-content-center"></div>`,
+            },
+            {
+                question: `What class justifies the content at the start of a row?`,
+                answer: `<div class="row justify-content-start"></div>`,
+            },
+            {
+                question: `What class justifies the content at the end of a row?`,
+                answer: `<div class="row justify-content-end"></div>`,
+            },
+            {
+                question: `What class distributes columns evenly with space between them?`,
+                answer: `<div class="row justify-content-between"></div>`,
+            },
+            {
+                question: `How do you distribute columns evenly with space around them?`,
+                answer: `<div class="row justify-content-around"></div>`,
+            },
         ],
     },
 ];
